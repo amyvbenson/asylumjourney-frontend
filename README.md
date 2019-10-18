@@ -1,8 +1,6 @@
-# asylumjourney-frontend
+# asylumjourney-frontend-kirkless
 
-Angular frontend for the Asylum Journey project, http://asylumjourney.sheffugees.org/. Part of [Sheffugees](http://www.yoomee.com/first-refugee-hackathon)
-
-Please note that this project, and the data it uses, are a work in progress.
+Fork of the Asylum Journey for Kirlees Council https://github.com/Sheffugees/asylumjourney-frontend
 
 ## Dependencies
 

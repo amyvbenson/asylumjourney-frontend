@@ -18,21 +18,13 @@
 }
 
 .home-header__logo {
-  background: url('/app/images/logo-basic.png') left center no-repeat;
-  background-size: 56px auto;
+  background: url('/app/images/kirklees-welcomes-logo.jpg') left center no-repeat;
+  background-size: 100% auto;
+  height: 37px;
+  width: 192px;
   padding: 0 0 0 64px;
-    text-align: left;
-    float: left;
-
-  h1 {
-    line-height: 1;
-    font-size: 1.3em;
-    font-weight: 700;
-  }
-
-  p {
-    margin: 0;
-  }
+  text-align: left;
+  float: left;
 }
 
 .home-start {
@@ -190,7 +182,7 @@
 
   li {
     display: inline-block;
-    width: 120px;
+    width: 50%;
     margin-right: 20px;
   }
 
@@ -201,6 +193,10 @@
 
 
 @media (min-width: 450px) {
+  .home-header__logo {
+    height: 58px;
+    width: 300px;
+  }
 
   .home-filters__stage {
     width: percentage(1/4);
@@ -209,10 +205,9 @@
 }
 
 @media (min-width: 768px) {
-
-  .home-header {
-    background: white url(/app/images/homebackground.png) right bottom no-repeat;
-    background-size: auto 124%;
+  .home-header__logo {
+    height: 74px;
+    width: 385px;
   }
 
   .home-start {
