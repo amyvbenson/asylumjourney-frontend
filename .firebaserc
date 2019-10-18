@@ -1,7 +1,7 @@
 {
   "projects": {
-    "default": "aj-production",
-    "production": "aj-production",
-    "staging": "aj-staging"
+    "default": "kirkleeswelcomes",
+    "production": "kirkleeswelcomes",
+    "staging": "kirklees-welcomes-staging"
   }
 }
